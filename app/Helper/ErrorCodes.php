@@ -1,0 +1,44 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: sato
+ * Date: 5/20/19
+ * Time: 9:32 AM
+ */
+
+define('INVALID_TOKEN', 1001);
+define('TOKEN_EXPIRED', 5001);
+define('TOKEN_BLACK_LIST', 5002);
+define('AUTHENTICATION_FAILURE', 5003);
+define('TOKEN_NO_LONGER_BE_REFRESH', 5004);
+
+define('UNKNOWN_EXCEPTION', 1002);
+
+define('USER_NOT_ACTIVE', 1003);
+define('EMAIL_EXISTED', 1004);
+define('WRONG_EMAIL_PASSWORD', 1005);
+define('WRONG_CODE_ACTIVE', 1006);
+define('USER_NAME_EXISTED', 1007);
+
+define('ACCOUNT_NOT_FOUND', 1008);
+define('USER_IS_ACTIVE', 1009);
+define('INVALID_PASS_CODE', 1011);
+define('INVALID_NEW_PASS', 1012);
+
+define('USER_IS_DELETED', 1014);
+
+define('ROLE_INVALID', 1015);
+define('NEED_PROVIDE_EMAIL', 1016);
+define('USER_NOT_LOGGED_IN', 1017);
+
+define('ACTIVATION_CODE_EXPIRED', 1020);
+define('PASSWORD_EMPTY', 1021);
+define('RESET_PASSWORD_CODE_EXPIRED', 1020);
+define('USER_IS_ADMIN', 1025);
+
+define('PERMISSION_DENIED', 3000);
+define('ERROR_CODE_VALIDATION', 3002);
+
+define('MAINTENANCE_MODE', 4001);
+
+define('TOKEN_MISS_MATCH', 1022);
