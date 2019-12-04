@@ -1,0 +1,268 @@
+.pagination li a{
+    background: #ffffff;
+    color: #4D4F5C;
+    font-size: 13px;
+}
+.page-link{
+    border: 1px solid #E8E9EC;
+}
+.page-link:hover{
+    background-color: #ffffff;
+    color: #4D4F5C;
+}
+.page-link:focus{
+    box-shadow: none;
+}
+.form-login {
+  max-width: 300px;
+  margin: 20px auto;
+}
+.center-align{
+  text-align: center;
+}
+
+.payment-status {
+  background: blue;
+  padding: 3px 10px;
+  font-size: 11px;
+  color: #fff;
+  vertical-align: middle;
+  margin-left: 3px;
+}
+.main-header .menu{
+    background:#ffffff !important;
+    min-height: 70px;
+
+}
+.main-header .lg-title{
+    font-size: 15px;
+    font-weight: bold;
+    height: 70px;
+    padding: 11px 15px;
+    background: #3B3A53 !important;
+}
+.main-header .lg-out{
+    font-size: 14px;
+    border-bottom: 1px solid;
+    color: #4D4F5C;
+}
+.main-header .icon-bar{
+    padding: 15px 20px;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+.main-header .sidebar-toggle{
+    color: #ffffff;
+}
+.sidebar-left{
+    background: #43425D !important;
+    padding-top: 70px;
+}
+.sidebar-left a:hover{
+    background: #3B3A53!important;
+}
+.main-sidebar .sidebar img{
+    width: 16px;
+    height: 16px;
+}
+.main-sidebar .sidebar a{
+    font-size: 15px;
+    color: #ffffff;
+}
+.main-sidebar .sidebar li:hover{
+    border-left: 3px solid #A3A0FB;
+}
+.seach-box{
+    position: absolute;
+    margin-top: 8px;
+}
+.seach-box input{
+    height: 40px;
+    width: 300px !important;
+    border-radius: 5px;
+    box-shadow: none;
+}
+.seach-box span{
+    font-size: 13px;
+    color: #4D4F5C;
+}
+.main-form input {
+    border: none;
+    border-bottom: 1px solid #43425D;
+    font-size: 15px;
+    outline: none;
+}
+.input100{
+    font-size: 16px;
+    line-height: 0.5;
+    display: block;
+    width: 100%;
+    height: 45px;
+    background: transparent;
+}
+.main-form input:focus {
+    box-shadow: none;
+}
+.main-form{
+    margin: 0 auto;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+.main-form .main-title h3{
+    font-size: 35px;
+    font-weight: bold;
+}
+.main-form .main-title small{
+    font-size: 18px;
+}
+label{
+    font-size: 15px;
+}
+.bt-login{
+    background: #484760;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+}
+.footer{
+    color: #43425D;
+    font-size: 11px;
+    transform: translateY(450px);
+}
+
+#basic-addon:focus{
+    box-shadow: none;
+    border: none;
+    outline: 5px auto #ccc;
+}
+.title-tb{
+    font-size: 18px;
+    color: #4D4F5C;
+}
+.table th{
+    font-size: 13px;
+    font-weight: bold;
+    background: #F5F6FA;
+    color: #A3A6B4;
+}
+.table td{
+    font-size: 13px;
+}
+.table td,.table th{
+    vertical-align: middle !important;
+}
+.f-form{
+    max-width: 447px;
+   min-height: 80vh;
+    padding: 5px 30px;
+    background: #ffffff;
+}
+.f-form input{
+    border-radius: 5px;
+}
+.f-form label{
+    font-size: 13px;
+    font-weight: bold;
+    color: #333333;
+}
+.btn-cancel{
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    background: #C4C4C4;
+}
+.btn-create{
+    width: 95px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    background: #08B46B;
+}
+.w-form{
+    max-width: 751px !important;
+}
+.calendar-title{
+    font-size: 18px;
+    color: #4D4F5C;
+}
+.calendar-form{
+    width: 540px;
+    height: 570px;
+    margin: 0px auto;
+}
+.calendar-form h3{
+    font-size: 27px;
+}
+.calendar-form label{
+    font-size: 14px;
+}
+.blog-detail a{
+    color: #378CBE;
+    border-bottom: 1px solid #378CBE;
+    font-size: 13px;
+}
+.main-content{
+    max-width: 944px;
+    min-height: 80vh;
+    background-color: #ffffff;
+}
+.btn-detail{
+    width: 82px;
+    font-size: 12px;
+    font-weight: bold;
+    background: #2699FB;
+    color: #ffffff;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+}
+.btn-agenda{
+    font-size: 13px;
+    border: 1px solid #D7DAE2;
+    background: #ffffff;
+    border-radius: 3px;
+    color: #4D4F5C;
+}
+.btn-agenda:hover{
+    color: #4D4F5C !important;
+
+}
+@media (max-width: 991.98px) {
+    .main-header .lg-title{
+        padding: 11px 15px 15px 20px;
+    }
+    .main-header .icon-bar{
+        left: -3px;
+    }
+}
+@media (max-width:767px) {
+    .f-form{
+        margin: 0px auto;
+    }
+}
+.modal-1 li a {
+    height: 35px;
+    width: 35px;
+    border-radius: 5px !important;
+    margin-right: 3px;
+    margin-left: 3px;
+
+}
+@media (max-width: 575px) {
+.main-form .main-title h3{
+    font-size: 24px;
+}
+    .main-form .main-title small{
+        font-size: 15px;
+    }
+}
+.logout{
+    color: #ffffff;
+    font-size: 14px;
+    border-bottom: 1px solid #4D4F5C;
+    transform: translateY(-50px);
+    margin-right: 10px;
+}
+

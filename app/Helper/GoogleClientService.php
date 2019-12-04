@@ -31,7 +31,7 @@ class GoogleClientService
     public function setup(){
         $this->client = new Google_Client();
         $this->client->useApplicationDefaultCredentials();
-        $this->client->setAuthConfig(config('muser.firebase.account_service_path'));
+        $this->client->setAuthConfig(config('seminar.firebase.account_service_path'));
         $this->client->addScope([self::FIRE_BASE_SCOPE_EMAIL, self::FIRE_BASE_SCOPE_REAL_TIME_DB]);
         $this->httpClient = $this->client->authorize();
     }

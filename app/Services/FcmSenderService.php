@@ -37,7 +37,7 @@ class FcmSenderService
 
 
     public function  sendBody($bodyData){
-        $project = env("FIREBASE_PROJECT_ID", "selectfxdev");
+        $project = env("FIREBASE_PROJECT_ID", "seminar");
         Log::debug("sending fcm message");
         Log::debug($bodyData['message']['data']);
         $response = $this->googleClientSv->getHttpClient()
